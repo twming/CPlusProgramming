@@ -307,11 +307,210 @@ int main(void) {
     return 0;
 }
 ```
+### Exercise: ifelse.cpp
+```
+#include <cstdio>
+
+int main()
+{
+    
+   	int a = 6;
+    int b = 3;
+    
+    if (a < b) {
+        printf("a is smaller than b\n");
+    } else {
+        printf("a is larger than b\n");
+    }
+ 
+    
+    return 0;
+}
+```
+### Exercise: ternary.cpp
+```
+#include <cstdio>
+
+int main()
+{
+   	int a = 5;
+    int b = 3;
+    
+   (a < b) ? printf ("a smaller than b\n") : printf("a larger than b\n");
+ 
+    return 0;
+}
+```
+### Exercise: ifelseif.cpp
+```
+#include <cstdio>
+
+int main()
+{
+    
+   	int a = 5;
+    int b = 5;
+    
+   	if (a < b) {
+        printf("a is smaller than b\n");
+    } else
+        if (a == b ) {
+            printf("a is equal to b\n");
+        } else {
+            printf("a is larger than b\n");
+        }
+ 
+    
+    return 0;
+}
+```
+### Exercise: switch.cpp
+```
+#include <cstdio>
+
+int main()
+{
+   	int a = 5;
+    int b = 5;
+    
+    char grade = 'B';
+    switch(grade) {
+        case 'A' :
+            printf("Excellent!\n" );
+            break;
+        case 'B' :
+            printf("Good Work\n" );
+            break;
+        case 'C'
+            printf("Well Done\n" );
+            break;
+        default:
+            printf("I don't know your grade");
+    }
+    
+    return 0;
+}
+```
+### Exercise: goto.cpp
+```
+#include <cstdio>
+
+int main() {
+	printf("Before the goto.\n");
+	goto target;
+	printf("After the goto.\n");
+	target:
+	printf("After the target.\n");
+	return 0;
+}
+```
+### Exercise: whileloop.cpp
+```
+#include <cstdio>
+
+int main()
+{
+    int i = 10;
+    while ( i > 0 )
+    {
+        printf("Hello %d\n", i );
+        i = i -1;
+    }
+    
+    return 0;
+}
+```
+### Exercise: dowhile.cpp
+```
+#include <cstdio>
+
+int main()
+{
+    int i = 10;
+    do {
+        printf("Hello %d\n", i );
+        i = i -1;
+    }while ( i > 0 );
+    
+    return 0;
+}
+```
+### Exercise: forloop.cpp
+```
+#include <cstdio>
+
+int main()
+{
+    int a;
+    for( a = 10; a < 20; a = a + 1 )
+    {
+        printf("value of a: %d\n", a);
+    }
+    
+    return 0;
+}
+```
+### Exercise: break.cpp
+```
+#include <cstdio>
+
+int main()
+{
+    int a;
+    for( a = 1; a < 10; a++ )
+    {
+        if (a == 5 ) {
+            break;
+        }
+        printf("value of a: %d\n", a);
+    }
+    
+    return 0;
+}
+```
+### Exercise: continue.cpp
+```
+#include <cstdio>
+
+int main()
+{
+    int a;
+    for( a = 1; a < 10; a++ )
+    {
+        if (a == 5 ) {
+            continue;
+        }
+        printf("value of a: %d\n", a);
+    }
+    
+    return 0;
+}
+```
+### Exercise: for-container.cpp
+```
+#include <cstdio>
+
+int main() {
+    
+    int a[] = {3,4,6,7,2,9};
+    
+    for(int i: a) {
+        printf("%d ",i);
+    }
+    printf("\n");
+
+    return 0;
+}
+```
 ### Exercise: 
 ```
 
 ```
-### Exercise:
+### Exercise: 
+```
+
+```
+### Exercise: 
 ```
 
 ```
@@ -323,7 +522,11 @@ int main(void) {
 ```
 
 ```
-### Exercise:
+### Exercise: 
+```
+
+```
+### Exercise: 
 ```
 
 ```
@@ -335,7 +538,11 @@ int main(void) {
 ```
 
 ```
-### Exercise:
+### Exercise: 
+```
+
+```
+### Exercise: 
 ```
 
 ```
@@ -347,7 +554,59 @@ int main(void) {
 ```
 
 ```
-### Exercise:
+### Exercise: 
+```
+
+```
+### Exercise: 
+```
+
+```
+### Exercise: 
+```
+
+```
+### Exercise: 
+```
+
+```
+### Exercise: 
+```
+
+```
+### Exercise: 
+```
+
+```
+### Exercise: 
+```
+
+```
+### Exercise: 
+```
+
+```
+### Exercise: 
+```
+
+```
+### Exercise: 
+```
+
+```
+### Exercise: 
+```
+
+```
+### Exercise: 
+```
+
+```
+### Exercise: 
+```
+
+```
+### Exercise: 
 ```
 
 ```
