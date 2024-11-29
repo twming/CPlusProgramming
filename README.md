@@ -196,37 +196,116 @@ int main( )
     cout << "Hello " << name << endl;
 }
 ```
-### Exercise:
+### Exercise: boolean.cpp
 ```
+#include <cstdio>
 
+int main(void)
+{
+    bool a=true, b=false;
+    printf("%d\n", a&&b);
+    printf("%d\n", a||b);
+    printf("%d\n", !b);
+}
 ```
-### Exercise: 
+### Exercise: accessstruct.cpp
 ```
+#include <cstdio>
 
-```
-### Exercise: 
-```
+struct Employee {
+    int id;
+    const char *name;
+    const char *role;
+};
 
-```
-### Exercise:
-```
+int main() {
+    Employee emp1;
+    emp1.id = 1;
+    emp1.name = "Ally";
+    emp1.role = "Engineer";
 
+    printf("%s role is %s\n",emp1.name, emp1.role);
+}
 ```
-### Exercise: 
+### Exercise: enum.cpp
 ```
+#include <iostream>
+using namespace std;
 
+int main(void)
+{
+    enum Color { RED, GREEN, BLUE };
+    Color r = RED;
+    switch(r)
+    {
+        case RED  : cout << "red\n";   break;
+        case GREEN: cout << "green\n"; break;
+        case BLUE : cout << "blue\n";  break;
+    }
+}
 ```
-### Exercise: 
+### Exercise: void-type.cpp
 ```
+#include <cstdio>
+using namespace std;
 
-```
-### Exercise:
-```
+void func ( void ) {
+    puts("this is void func ( void )");
+}
 
+int main( int argc, char ** argv ) {
+    puts("calling func()");
+    func();
+    return 0;
+}
 ```
-### Exercise: 
+### Exercise: typedef.cpp
 ```
+#include <iostream>
+using namespace std;
 
+typedef long miles_t;
+typedef long speed_t;
+
+miles_t distance = 5;
+speed_t mhz = 3200;
+
+
+//Note the void type in main(void)
+int main(void) {
+   
+    return 0;
+    
+}
+```
+### Exercise: compound.cpp
+```
+#include <cstdio>
+
+int main()
+{
+    int i;
+    i=3;
+    i+=1;
+    
+    printf("i = %d \n",i);   
+    return 0;
+}
+```
+### Exercise: increment.cpp
+```
+#include <iostream>
+using namespace std;
+
+
+int main(void) {
+    int a = 5;
+    printf("a = %d\n",++a);
+    a = 5;
+    printf("a = %d\n",a++);
+    
+    return 0;
+}
 ```
 ### Exercise: 
 ```
