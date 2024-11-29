@@ -1,4 +1,4 @@
-# CPlusProgramming
+# C++ Programming
 C++ Programming
 
 ### Exercise: hello.cpp
