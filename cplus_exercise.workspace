@@ -67,5 +67,6 @@
 		<Project filename="exec_64/exec_64.cbp" />
 		<Project filename="exec_65/exec_65.cbp" />
 		<Project filename="exec_66/exec_66.cbp" />
+		<Project filename="challenge/challenge.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
