@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1732967527 source:c:\users\user\desktop\10_cplus_programming\exec\exec_54\main.cpp
+	<cstdio>
+	"mylib.h"
+
+1732967592 c:\users\user\desktop\10_cplus_programming\exec\exec_54\mylib.h
+
