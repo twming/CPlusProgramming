@@ -1,7 +1,7 @@
 # C++ Programming
 C++ Programming
 
-### Exercise: hello.cpp
+### Exercise 01: hello.cpp
 ```
 #include <cstdio>
 int main()
@@ -10,7 +10,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: printf.cpp
+### Exercise 02: printf.cpp
 ```
 #include <cstdio>
 
@@ -20,7 +20,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: integer.cpp
+### Exercise 03: integer.cpp
 ```
 #include <cstdio>
 //using namespace std;
@@ -32,7 +32,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: float.cpp
+### Exercise 04: float.cpp
 ```
 #include <cstdio>
 //using namespace std;
@@ -66,7 +66,7 @@ int main(void) {
     return 0;
 }
 ```
-### Exercise: stringtype_cstdio.cpp
+### Exercise 05: stringtype_cstdio.cpp
 ```
 #include <cstdio>
 
@@ -83,7 +83,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: escape-char.cpp
+### Exercise 06: escape-char.cpp
 ```
 #include <cstdio>
 
@@ -93,7 +93,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: stringtype_strcpy.cpp
+### Exercise 07: stringtype_strcpy.cpp
 ```
 #include <cstdio>
 #include <cstring>
@@ -105,7 +105,7 @@ int main(){
     printf("%s\n",s2);
 }
 ```
-### Exercise: stringtype_strcat.cpp
+### Exercise 08: stringtype_strcat.cpp
 ```
 #include <cstdio>
 #include <cstring>
@@ -117,7 +117,7 @@ int main() {
     printf("%s\n",s1);
 }
 ```
-### Exercise: stringtype_strlen.cpp
+### Exercise 09: stringtype_strlen.cpp
 ```
 #include <cstdio>
 #include <cstring>
@@ -127,7 +127,7 @@ int main(){
     printf("%d\n",strlen(s1));
 }
 ```
-### Exercise: stringtype_scanf.cpp
+### Exercise 10: stringtype_scanf.cpp
 ```
 #include <cstdio>
 int main() {
@@ -137,7 +137,7 @@ int main() {
     printf("Hello %s\n",name);
 }
 ```
-### Exercise: stringtype_iostream.cpp
+### Exercise 11: stringtype_iostream.cpp
 ```
 #include <iostream>
 #include <string>
@@ -151,7 +151,7 @@ int main() {
     cout << s1 << endl;
 }
 ```
-### Exercise: stringtype_cout1.cpp
+### Exercise 12: stringtype_cout1.cpp
 ```
 #include <iostream>
 using namespace std;
@@ -162,7 +162,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: stringtype_cout2.cpp
+### Exercise 13: stringtype_cout2.cpp
 ```
 #include <iostream>
 #include <string>
@@ -173,7 +173,7 @@ int main(){
     cout << s1 << s2 << endl;
 }
 ```
-### Exercise: stringtype_size.cpp
+### Exercise 14: stringtype_size.cpp
 ```
 #include <iostream>
 #include <string>
@@ -184,7 +184,7 @@ int main() {
     cout <<  s1.size() << endl;
 }
 ```
-### Exercise: cin.cpp
+### Exercise 15: cin.cpp
 ```
 #include <iostream>
 using namespace std;
@@ -196,7 +196,7 @@ int main( )
     cout << "Hello " << name << endl;
 }
 ```
-### Exercise: boolean.cpp
+### Exercise 16: boolean.cpp
 ```
 #include <cstdio>
 
@@ -208,7 +208,7 @@ int main(void)
     printf("%d\n", !b);
 }
 ```
-### Exercise: accessstruct.cpp
+### Exercise 17: accessstruct.cpp
 ```
 #include <cstdio>
 
@@ -227,7 +227,7 @@ int main() {
     printf("%s role is %s\n",emp1.name, emp1.role);
 }
 ```
-### Exercise: enum.cpp
+### Exercise 18: enum.cpp
 ```
 #include <iostream>
 using namespace std;
@@ -244,7 +244,7 @@ int main(void)
     }
 }
 ```
-### Exercise: void-type.cpp
+### Exercise 19: void-type.cpp
 ```
 #include <cstdio>
 using namespace std;
@@ -259,7 +259,7 @@ int main( int argc, char ** argv ) {
     return 0;
 }
 ```
-### Exercise: typedef.cpp
+### Exercise 20: typedef.cpp
 ```
 #include <iostream>
 using namespace std;
@@ -278,7 +278,7 @@ int main(void) {
     
 }
 ```
-### Exercise: compound.cpp
+### Exercise 21: compound.cpp
 ```
 #include <cstdio>
 
@@ -292,7 +292,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: increment.cpp
+### Exercise 22: increment.cpp
 ```
 #include <iostream>
 using namespace std;
@@ -307,7 +307,7 @@ int main(void) {
     return 0;
 }
 ```
-### Exercise: ifelse.cpp
+### Exercise 23: ifelse.cpp
 ```
 #include <cstdio>
 
@@ -327,7 +327,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: ternary.cpp
+### Exercise 24: ternary.cpp
 ```
 #include <cstdio>
 
@@ -341,7 +341,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: ifelseif.cpp
+### Exercise 25: ifelseif.cpp
 ```
 #include <cstdio>
 
@@ -364,7 +364,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: switch.cpp
+### Exercise 26: switch.cpp
 ```
 #include <cstdio>
 
@@ -391,7 +391,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: goto.cpp
+### Exercise 27: goto.cpp
 ```
 #include <cstdio>
 
@@ -404,7 +404,7 @@ int main() {
 	return 0;
 }
 ```
-### Exercise: whileloop.cpp
+### Exercise 28: whileloop.cpp
 ```
 #include <cstdio>
 
@@ -420,7 +420,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: dowhile.cpp
+### Exercise 29: dowhile.cpp
 ```
 #include <cstdio>
 
@@ -435,7 +435,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: forloop.cpp
+### Exercise 30: forloop.cpp
 ```
 #include <cstdio>
 
@@ -450,7 +450,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: break.cpp
+### Exercise 31: break.cpp
 ```
 #include <cstdio>
 
@@ -468,7 +468,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: continue.cpp
+### Exercise 32: continue.cpp
 ```
 #include <cstdio>
 
@@ -486,7 +486,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: for-container.cpp
+### Exercise 33: for-container.cpp
 ```
 #include <cstdio>
 
@@ -502,7 +502,7 @@ int main() {
     return 0;
 }
 ```
-### Exercise: areaofcircle.cpp
+### Exercise 34: areaofcircle.cpp
 ```
 #include <iostream>
 using namespace std;
@@ -524,7 +524,7 @@ double areaofcircle(double r){
     return pi*r*r;
 }
 ```
-### Exercise: callbyvalue.cpp
+### Exercise 35: callbyvalue.cpp
 ```
 #include <cstdio>
 
@@ -544,7 +544,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: reference.cpp
+### Exercise 36: reference.cpp
 ```
 #include <cstdio>
 
@@ -564,7 +564,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: variablescope.cpp
+### Exercise 37: variablescope.cpp
 ```
 #include <cstdio>
 
@@ -584,7 +584,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: staticvariable.cpp
+### Exercise 38: staticvariable.cpp
 
 ```
 #include <cstdio>
@@ -607,7 +607,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: passingarray.cpp
+### Exercise 39: passingarray.cpp
 ```
 #include <cstdio>
 
@@ -632,7 +632,7 @@ void func2(int *array){
     printf("array[3] = %d\n", array[3]);
 }
 ```
-### Exercise: return_values.cpp
+### Exercise 40: return_values.cpp
 ```
 #include <cstdio>
 
@@ -651,7 +651,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: func_overload.cpp
+### Exercise 41: func_overload.cpp
 
 ```
 #include <cstdio>
@@ -683,7 +683,7 @@ int main( int argc, char ** argv ) {
     return 0;
 }
 ```
-### Exercise: prototype.cpp
+### Exercise 42: prototype.cpp
 ```
 #include <cstdio>
 using namespace std;
@@ -701,7 +701,7 @@ double func(double x, double y){
     return x*y;
 }
 ```
-### Exercise: class.cpp
+### Exercise 43: class.cpp
 ```
 #include <cstdio>
 
@@ -745,7 +745,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: class-scope-resolution.cpp
+### Exercise 44: class-scope-resolution.cpp
 ```
 #include <cstdio>
 
@@ -791,7 +791,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: constructor.cpp
+### Exercise 45: constructor.cpp
 ```
 #include <cstdio>
 
@@ -830,7 +830,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: destructor.cpp
+### Exercise 46: destructor.cpp
 ```
 #include <iostream>
 
@@ -879,7 +879,7 @@ int main( )
     return 0;
 }
 ```
-### Exercise: inheritance.cpp
+### Exercise 47: inheritance.cpp
 ```
 #include <cstdio>
 
@@ -927,7 +927,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: private.cpp
+### Exercise 48: private.cpp
 
 ```
 #include <cstdio>
@@ -974,7 +974,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: pointers.cpp
+### Exercise 49: pointers.cpp
 ```
 #include <cstdio>
 
@@ -987,7 +987,7 @@ int main(void) {
     return 0;
 }
 ```
-### Exercise: pointer_variable.cpp
+### Exercise 50: pointer_variable.cpp
 ```
 #include <cstdio>
 
@@ -1003,7 +1003,7 @@ int main(void) {
     return 0;
 }
 ```
-### Exercise: pointer_arithmetic.cpp
+### Exercise 51: pointer_arithmetic.cpp
 
 ```
 #include <cstdio>
@@ -1027,7 +1027,7 @@ int main(void) {
     return 0;
 }
 ```
-### Exercise: pointer_array.cpp
+### Exercise 52: pointer_array.cpp
 
 ```
 #include <cstdio>
@@ -1050,7 +1050,7 @@ int main(void) {
     return 0;
 }
 ```
-### Exercise: define_macro.cpp
+### Exercise 53: define_macro.cpp
 
 ```
 #include <cstdio>
@@ -1068,7 +1068,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: : include_macro.cpp
+### Exercise 54: : include_macro.cpp
 
 ```
 #include <cstdio>
@@ -1122,7 +1122,7 @@ public:
     
 };
 ```
-### Exercise: conditional.cpp
+### Exercise 55: conditional.cpp
 
 ```
 #include <cstdio>
@@ -1146,7 +1146,7 @@ conditional.h
 
 #endif
 ```
-### Exercise: macro-parameter.cpp
+### Exercise 56: macro-parameter.cpp
 
 ```
 #include <cstdio>
@@ -1158,7 +1158,7 @@ int main()
     return 0;
 }
 ```
-### Exercise: namespace .cpp
+### Exercise 57: namespace .cpp
 ```
 #include <iostream>
 using namespace std;
@@ -1170,7 +1170,7 @@ int main() {
     return 0;
 }
 ```
-### Exercise: vector.cpp
+### Exercise 58: vector.cpp
 
 ```
 #include <iostream>
@@ -1198,7 +1198,7 @@ int main() {
     return 0;
 }
 ```
-### Exercise: spring2.cpp
+### Exercise 59: spring2.cpp
 
 ```
 #include <iostream>
@@ -1262,7 +1262,7 @@ int main( int argc, char ** argv ) {
     return 0;
 }
 ```
-### Exercise: iostream .cpp
+### Exercise 60: iostream .cpp
 ```
 // iostream-file.cpp by Bill Weinman <http://bw.org/>
 #include <iostream>
@@ -1299,7 +1299,7 @@ int main( int argc, char ** argv ) {
     return 0;
 }
 ```
-### Exercise: iterator.cpp
+### Exercise 61: iterator.cpp
 ```
 #include <iostream>
 #include <vector>
@@ -1319,7 +1319,7 @@ int main() {
 
 }
 ```
-### Exercise: list.cpp
+### Exercise 62: list.cpp
 
 ```
 #include <iostream>
@@ -1363,7 +1363,7 @@ int main() {
     return 0;
 }
 ```
-### Exercise: pair.cpp
+### Exercise 63: pair.cpp
 ```
 #include <iostream>
 #include <utility>
@@ -1376,7 +1376,7 @@ int main() {
     return 0;
 }
 ```
-### Exercise: set.cpp
+### Exercise 64: set.cpp
 ```
 #include <iostream>
 #include <string>
@@ -1423,7 +1423,7 @@ int main() {
     return 0;
 }
 ```
-### Exercise: map.cpp
+### Exercise 65: map.cpp
 ```
 #include <iostream>
 #include <iostream>
@@ -1442,7 +1442,7 @@ int main()
     cout << "Rank 2 is  " << ranking[2] << endl;
 }
 ```
-### Exercise: interfaces.cpp
+### Exercise 66: interfaces.cpp
 ```
 #include <iostream>
 
